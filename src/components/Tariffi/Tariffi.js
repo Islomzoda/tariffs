@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Tariffi({tariff}) {
  
- let hit = '';
+ let hitti = '';
 
- tariff.hit ? hit = 'hit' : hit = 'nothit';
+ tariff.hit ? hitti = 'hitti' : hitti = 'nothit';
     return (
         <div>
        
@@ -13,7 +13,7 @@ export default function Tariffi({tariff}) {
     <table className="table">
         <tbody>
 <tr>
-   <td className={hit}><span className="title" >{tariff.title}</span>
+   <td className={hitti}><span className="title" >{tariff.title}</span>
     <div className="price">
         <div>
              <span>{tariff.price}</span>
