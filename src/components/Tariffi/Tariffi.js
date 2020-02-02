@@ -74,7 +74,7 @@ export default function Tariffi({tariff}) {
         <td class="buttons-td">
             <div class="btns-rows">
                 <div class="sim-btn-wrapper">
-                    <a class="btn btn-small">
+                    <a href={tariff.tariffLink} class="btn btn-small">
                         <span>Купить SIM</span>
                     </a>
                 </div>
