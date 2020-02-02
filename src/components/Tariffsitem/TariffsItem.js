@@ -25,6 +25,7 @@ export default function TariffsItem() {
     
     return (
         <div>
+           <center> <div className="tarrifs-name"><h1>Тарифы</h1></div></center>
             {tariff.map(o => <Tariffi tariff = {o}/>)}
         </div>
     )
