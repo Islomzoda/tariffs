@@ -39,7 +39,7 @@ export default function Tariffi({tariff}) {
         <div className="preamble-grouped-services">
             <div className="preamble-text graphical">{tariff.text}</div>
             <div className="service-icon">
-                {tariff.socialUnlim && tariff.socialIcon.map(o => <img src={o}/>)}
+                {tariff.socialUnlim && tariff.socialIcon.map(o => <img src={o} alt=""/>)}
             </div>
         </div>
 </div>
@@ -74,7 +74,7 @@ export default function Tariffi({tariff}) {
         <td class="buttons-td">
             <div class="btns-rows">
                 <div class="sim-btn-wrapper">
-                    <a class="btn btn-small" id="shopButtons_SimBuyButton_prodVezdeOnlineMSK_062019-21">
+                    <a class="btn btn-small">
                         <span>Купить SIM</span>
                     </a>
                 </div>
