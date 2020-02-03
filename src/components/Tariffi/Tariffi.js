@@ -25,7 +25,6 @@ export default function Tariffi({tariff}) {
         </div>
     </div>
 </div>
- <a href={tariff.tariffLink} className="box-link"></a>
          </td>
          <td className="price-td">
 
