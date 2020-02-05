@@ -18,15 +18,12 @@ export default function TariffsItem() {
         {id:9, title: "Интернет для устройств",  text:"Без абанентской платы", hit:false, price:false, tariffLink:"", volium:false, limit: false,minutes:false ,time:false,message: false, sms:false},
         {id:10, title: "Интеренет для вещей", hit:false, price: 100, priceValue:'₽', forMuch:"/месяц", internetTraffic:300,volium:"GB", tariffLink:"", limit: false, minutes:30,time:"минут",massage:100, sms:"SMS"},
     ];  
-    const tariff = tariffs.map(p=>({
-      ...p,
-
-    }))
+  
     
     return (
         <div>
            <center> <div className="tarrifs-name"><h1>Тарифы</h1></div></center>
-            {tariff.map(o => <Tariff tariff = {o}/>)}
+            {tariffs.map(o => <Tariff tariff = {o}/>)}
         </div>
     )
 }
