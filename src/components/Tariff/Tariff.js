@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tariffi({ tariff }) {
+export default function Tariff({ tariff }) {
 
     let hitti = '';
 

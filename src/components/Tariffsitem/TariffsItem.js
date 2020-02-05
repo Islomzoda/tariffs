@@ -1,5 +1,5 @@
 import React from 'react'
-import Tariffi from '../Tariffi/Tariffi';
+import Tariff from '../Tariff/Tariff';
 
 export default function TariffsItem() {
     
@@ -26,7 +26,7 @@ export default function TariffsItem() {
     return (
         <div>
            <center> <div className="tarrifs-name"><h1>Тарифы</h1></div></center>
-            {tariff.map(o => <Tariffi tariff = {o}/>)}
+            {tariff.map(o => <Tariff tariff = {o}/>)}
         </div>
     )
 }
