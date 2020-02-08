@@ -22,7 +22,6 @@ export default function Tariff({ tariff }) {
                                                 <span className="per-value">
                                                     <span>{tariff.forMuch}</span>
                                                 </span>
-                                                <a href={tariff.tariffLink}></a>
                                             </div>
                                         </div>
                                     </div>
