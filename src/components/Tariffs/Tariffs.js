@@ -1,7 +1,7 @@
 import React from 'react'
 import Tariff from '../Tariff/Tariff';
 
-export default function TariffsItem() {
+export default function Tariffs() {
     
     const tariffs = [
         {id:1, title: "Везде онлайн ", hit:true, price: 500, priceValue:'₽', forMuch:"/месяц",internetTraffic:40,volium:"GB",text:"+безлимитные",tariffLink:"https://msk.tele2.ru/tariff/everywhere-online",minutes:500,time:"минут",limit: "безлимитный на Tele2 России",massage:50,sms:"SMS", socialIcon: ['https://msk.tele2.ru/api/media/asset?mediaId=m220005','https://msk.tele2.ru/api/media/asset?mediaId=m220001','https://msk.tele2.ru/api/media/asset?mediaId=m220003','https://msk.tele2.ru/api/media/asset?mediaId=m220006','https://msk.tele2.ru/api/media/asset?mediaId=m220004',

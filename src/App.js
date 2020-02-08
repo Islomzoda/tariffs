@@ -1,5 +1,5 @@
 import React from 'react'
-import TariffsItem from './components/Tariffsitem/TariffsItem'
+import Tariffs from './components/Tariffs/Tariffs'
 
 
 
@@ -14,5 +14,5 @@ export default function App() {
 
   return (
     <div>
-<TariffsItem />
+<Tariffs />
     </div>)}
